@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Organisms/Header'
+import Footer from './components/Organisms/Footer'
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className='app-container'>
         <Header />
+        <Footer />
       </div>
     </>
   )
