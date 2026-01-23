@@ -1,7 +1,9 @@
-// props added to the {}bracket
-const Button = ({text, className, onClick}) => {
-       return (
-              <button className={`btn ${className}`} onClick={onClick}>{Text}</button>
-       );
+const Button = ({ text, className, onClick }) => {
+  return (
+    <button className={`btn ${className}`} onClick={onClick}>
+      {text}
+    </button>
+  );
 };
+
 export default Button;
